@@ -47,6 +47,8 @@ public class HumanPlayer extends Player implements MouseListener {
                     moveValid = true; // 如果没胜利，恢复点击权限
                 }
             } else {
+                //输出到窗口
+                javax.swing.JOptionPane.showMessageDialog(null, "该位置已有棋子，请选择其他位置！");
                 System.out.println("该位置已有棋子，请选择其他位置！");
             }
         }

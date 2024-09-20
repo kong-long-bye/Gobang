@@ -74,6 +74,7 @@ public class ChessGame extends JFrame {
 
                 // 检查当前位置是否已经有棋子
                 if (chessBoard.getChessMap()[row][col] != 0) {
+                    javax.swing.JOptionPane.showMessageDialog(null, "该位置已有棋子，请选择其他位置！");
                     System.out.println("该位置已有棋子，请选择其他位置！");
                     return;
                 }
@@ -140,6 +141,7 @@ public class ChessGame extends JFrame {
 
                 // 检查当前位置是否已经有棋子
                 if (chessBoard.getChessMap()[row][col] != 0) {
+                    javax.swing.JOptionPane.showMessageDialog(null, "该位置已有棋子，请选择其他位置！");
                     System.out.println("该位置已有棋子，请选择其他位置！");
                     return;
                 }
